@@ -61,12 +61,34 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+  .img.d-flex.align-self-stretch.align-items-center {
+    border: 3px solid #00000021;
+    border-radius: 53%;
+    width: 440px;
+    height: 481px;
+    box-shadow: 0 8px 7px 0 rgb(147 124 124), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+h1.lethienloc {font-family: 'roboto';}
+  
 
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
+  .box {
+    width: 219px;
+    line-height: 40px;
+    height: 40px;
+    background: #80808000;
+    text-align: center;
+    border: 1px solid #8080801a;
+    margin: 11px;
+    color: #000000ba;
+    font-style: bold;
+    box-shadow: 0 -7 15 25;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
